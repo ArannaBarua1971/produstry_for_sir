@@ -299,15 +299,6 @@ ul li:hover a::after{
 	display: flex;
 	justify-content: flex-end;
 }
-#navbar .hide_everything{
-    background: rgba(0,0,0,0.7);
-    position: fixed;
-    width: 0%;
-    top: 0;
-    height: 100%;
-    left: 0;
-    z-index: 98;
-}
 #navbar .handbar .menu_bar_show .cancel{
     margin-top:20px
 }
