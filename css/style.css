@@ -223,6 +223,10 @@ ul li:hover a::after{
 /* navbar section css start */
 #navbar{
     padding: 20px 0px;
+    height: 101px;
+}
+#navbar .menu_bar{
+    transform: translateY(23%);
 }
 #navbar .menu_bar ul li a{
     font-size: 16px;
@@ -252,6 +256,22 @@ ul li:hover a::after{
 {
     color: var(--light-yellow);
 }
+#navbar .menu_bar .menu{
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--common-transition);
+}
+#navbar .menu_bar .menu.showHide{
+    opacity: 1;
+    visibility: visible;
+}
+#navbar .menu_bar .nav_btn{
+    color: var(--light-yellow);
+    background: none;
+    background: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
 #navbar .handbar{
     display: none;
     position: relative;
@@ -261,6 +281,9 @@ ul li:hover a::after{
     background: none;
     padding: 4px;
     border-radius: 5px;
+}
+#navbar .handbar .show{
+    transform: translateY(23%);
 }
 #navbar .handbar button img{
     margin-top: -9px;
